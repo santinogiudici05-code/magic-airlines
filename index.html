@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Magic Airlines — Vive la magia desde que vuelas</title>
+  <style>
+    :root{
+      --fondo:#f6f8fb;
+      --primario:#0b3d91;
+      --secundario:#1e5fd8;
+      --texto:#0b2545;
+      --muted:#6b788a;
+      --card:#ffffff;
+      --radio:12px;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--fondo);color:var(--texto);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:var(--maxw);margin:28px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{display:flex;align-items:center;justify-content:center;width:86px;height:86px;border-radius:14px;background:linear-gradient(135deg,var(--secundario),#3aa0ff);color:white;font-weight:800;font-size:18px;box-shadow:0 12px 32px rgba(30,95,216,0.10)}
+    nav a{margin-left:18px;color:var(--primario);text-decoration:none;font-weight:700}
+    main{margin-top:22px}
+    .hero{background:var(--card);border-radius:var(--radio);padding:22px;box-shadow:0 10px 28px rgba(11,61,145,0.06)}
+    h1{margin:0;color:var(--primario);font-size:28px}
+    p.lead{margin:12px 0 0;color:var(--muted);line-height:1.6}
+    section{margin-top:18px;padding:18px;background:var(--card);border-radius:var(--radio);box-shadow:0 8px 20px rgba(11,61,145,0.04)}
+    h2{color:var(--secundario);margin-top:0}
+    h3{color:var(--primario);margin-bottom:6px}
+    .small{color:var(--muted);line-height:1.5}
+    .grid{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+    .box{padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff);border:1px solid #eef4ff}
+    footer{margin-top:24px;text-align:center;color:var(--muted);font-size:14px;padding:18px}
+    a.cta{display:inline-block;background:var(--secundario);color:white;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:800;margin-top:12px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.brand{gap:10px}nav{display:none}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">MA</div>
+        <div>
+          <div style="font-weight:800;color:var(--primario)">Magic Airlines</div>
+          <div style="color:var(--muted);font-size:13px">Vive la magia desde que vuelas</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#estructura">Estructura</a>
+        <a href="#conclusion">Conclusión</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <h1>Vuela hacia la magia</h1>
+        <p class="lead">Magic Airlines ofrece una propuesta única: trasladar a las personas hacia los destinos más emblemáticos de la experiencia Disney conservando estándares profesionales de servicio y seguridad. Desde el inicio del viaje hasta la llegada, cada detalle está diseñado para emocionar y acompañar a los pasajeros.</p>
+        <a class="cta" href="#paquetes">Explorá los paquetes</a>
+      </section>
+
+      <section id="experiencias">
+        <h2>Experiencias a bordo</h2>
+        <div class="grid">
+          <div class="box">
+            <h3>Primeros momentos a bordo</h3>
+            <p class="small">Antes de despegar, la experiencia comienza con una bienvenida cuidada que anticipa la historia del viaje. El personal acompaña con una atención dedicada que pone en foco la comodidad y la ilusión desde el primer instante.</p>
+          </div>
+          <div class="box">
+            <h3>Entretenimiento temático</h3>
+            <p class="small">Durante el vuelo, el contenido exclusivo y las actividades a bordo mantienen la atención y el disfrute de todas las edades. La programación está pensada para que el tiempo de viaje se convierta en parte de la aventura.</p>
+          </div>
+          <div class="box">
+            <h3>Servicios para familias</h3>
+            <p class="small">Los itinerarios y servicios on board facilitan la experiencia familiar: espacios de confort, atención prioritaria y recursos que permiten a los adultos y niños disfrutar sin preocupaciones.</p>
+          </div>
+          <div class="box">
+            <h3>Opciones premium</h3>
+            <p class="small">Para quienes buscan privacidad y distinción, se ofrecen alternativas exclusivas que elevan la experiencia de viaje, con atención personalizada y beneficios exclusivos pensados para momentos memorables.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="paquetes">
+        <h2>Paquetes de viaje</h2>
+        <p class="small">Nuestros paquetes combinan traslado, alojamiento y acceso a experiencias temáticas. Están diseñados para adaptarse a distintos perfiles de viajero y pueden personalizarse para celebraciones y eventos especiales.</p>
+
+        <div class="grid">
+          <div class="box">
+            <h3>Escapada individual</h3>
+            <p class="small">Para quienes desean descubrir la magia a su propio ritmo. El paquete incluye atención a bordo diseñada para una experiencia personal y contenidos que enriquecen la estadía en destino.</p>
+          </div>
+          <div class="box">
+            <h3>Escapada en pareja</h3>
+            <p class="small">Una propuesta romántica que combina momentos íntimos con actividades temáticas. Incluye servicios que realzan la experiencia en pareja y facilitan cada etapa del viaje.</p>
+          </div>
+          <div class="box">
+            <h3>Escapada familiar</h3>
+            <p class="small">Planificada para que las familias vivan la experiencia con tranquilidad: servicios adaptados para niños, accesos preferentes y acompañamiento en cada tramo del viaje.</p>
+          </div>
+          <div class="box">
+            <h3>Paquetes a medida</h3>
+            <p class="small">Itinerarios personalizados para grupos, celebraciones y eventos corporativos, diseñados en conjunto con el equipo comercial para lograr una propuesta única y memorable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="estructura">
+        <h2>Estructura organizacional</h2>
+        <p class="small">La organización de Magic Airlines está pensada para garantizar la excelencia operativa y la coherencia de la experiencia de marca. Las áreas trabajan integradas, con procesos documentados y equipos que coordinan desde la planificación estratégica hasta la ejecución en cada vuelo.</p>
+
+        <div class="grid">
+          <div class="box"><h3>Dirección y estrategia</h3><p class="small">Lidera la visión de la compañía, define las prioridades estratégicas y coordina las alianzas que permiten ofrecer experiencias asociadas a la marca.</p></div>
+          <div class="box"><h3>Operaciones y seguridad</h3><p class="small">Se encarga de la planificación de vuelos, gestión de tripulaciones y cumplimiento de las normas de seguridad que garantizan viajes confiables y eficaces.</p></div>
+          <div class="box"><h3>Mantenimiento y logística</h3><p class="small">Asegura la disponibilidad y el estado óptimo de la flota mediante procesos preventivos y coordinados con los hubs operativos.</p></div>
+          <div class="box"><h3>Comercial y experiencia</h3><p class="small">Diseña las propuestas de valor al pasajero, coordina los paquetes temáticos y gestiona la relación con los clientes y socios estratégicos.</p></div>
+          <div class="box"><h3>Recursos humanos y formación</h3><p class="small">Aporta desarrollo profesional, selección y formación continua para garantizar que el equipo mantenga altos estándares de servicio.</p></div>
+          <div class="box"><h3>Marketing y alianzas</h3><p class="small">Difunde la propuesta, gestiona campañas y colabora con socios para ampliar las oportunidades de experiencia para los pasajeros.</p></div>
+        </div>
+      </section>
+
+      <section id="conclusion">
+        <h2>Conclusión</h2>
+        <p class="small">Magic Airlines propone una forma renovada de volar, donde la atención profesional y la creatividad se combinan para generar experiencias memorables. La compañía invita a pasajeros y familias a descubrir la magia en cada etapa del viaje, confiando en la seguridad y el compromiso de un equipo orientado a la excelencia.</p>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p class="small">Para consultas sobre paquetes, experiencias y alianzas, escribinos a nuestro correo de contacto:</p>
+        <p style="color:var(--primario);font-weight:700">magicairlines@gmail.com</p>
+        <p class="small">Nuestro equipo comercial responderá a la brevedad para diseñar la propuesta que más se ajuste a tus necesidades.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="small">Magic Airlines — Vive la magia desde que vuelas</div>
+    </footer>
+  </div>
+</body>
+</html>
